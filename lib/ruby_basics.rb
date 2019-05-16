@@ -1,6 +1,8 @@
-def division(num1, num2)
-  returns (#{num1} / #{num2}) 
+def division(num1,num2)
+  "#{num1}".to_i / "#{num2}".to_i
 end
+
+division(42, 7)
 
 
 def assign_variable(value)
